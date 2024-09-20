@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes - Venecia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Descubre Venecia</h1>
+            <p>Explora la ciudad de los canales con nuestro exclusivo paquete turístico.</p>
+        </header>
+
+        <section class="imagenes">
+            <img src="..\Agencia de viajes2\imagenes\venecia1.jpg" alt="Gran Canal de Venecia">
+            <img src="..\Agencia de viajes2\imagenes\sanmarcos.jpg" alt="Plaza de San Marcos en Venecia">
+            <img src="..\Agencia de viajes2\imagenes\Gondolas.jpg" alt="Góndolas en Venecia">
+        </section>
+
+        <section class="actividades">
+            <h2>Actividades y Lugares Imperdibles</h2>
+            <ul>
+                <li>Paseo en góndola por el Gran Canal</li>
+                <li>Visita a la Plaza de San Marcos</li>
+                <li>Tour por el Palacio Ducal</li>
+                <li>Descubre el Puente de Rialto</li>
+            </ul>
+        </section>
+
+        <section class="precio">
+            <h2>Precio del Paquete</h2>
+            <p><strong>€1,500</strong> por persona (todo incluido)</p>
+        </section>
+
+        <section class="formulario">
+            <h2>Reserva tu Viaje</h2>
+            <form id="reservaForm">
+                <div class="input-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit" class="btn-reservar">Reservar</button>
+            </form>
+        </section>
+
+        <button id="modoOscuroBtn" class="modoOscuroBtn">Modo Oscuro</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
